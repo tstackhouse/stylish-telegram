@@ -1,5 +1,5 @@
 # Stylish Telegram
-Some useful css overrides for telegram web to make it look more like the desktop clients and not waste screen real estate.
+Some useful css overrides for [Telegram](http://www.telegram.org)'s web client to make it look more like the desktop clients and not waste screen real estate.
 
 ## Usage
 
@@ -14,4 +14,4 @@ Some useful css overrides for telegram web to make it look more like the desktop
 
 ## History
 
-I was using this locally and had a bunch of tweaks for the telegram web UI, but foolishly didn't have a backup of all my rules, so I'm publishing the rules here as I recreate my old styles over time.  Eventually I'll post this up on userstyles.org.
+I was using this locally and had a bunch of tweaks for the Telegram web UI, but foolishly didn't have a backup of all my rules, so I'm publishing the rules here as I recreate my old styles over time.  Eventually I'll post this up on userstyles.org.
