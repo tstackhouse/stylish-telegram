@@ -19,6 +19,45 @@
 }
 .tg_head_main_wrap,
 .im_history_col_wrap {
- 	width: 76%   
+ 	width: 76%;
 }
 
+
+/* pretty up the chat area a bit */
+.im_history_wrap {
+	background-color: #A1B5C4;   
+}
+
+
+/* Make messages nice rouded boxes */
+.im_message_wrap {
+	margin: 0px 5px 0px 12px;
+}
+.im_content_message_wrap { 
+ 	background-color: #fdfdfd;
+    box-shadow: 0px 0px 3px 0px rgba(100,100,100,.5);
+    border-radius: 5px;
+    margin: 4px 5px 4px 8px;
+    padding: 8px;
+    max-width: 65%;
+}
+
+.im_message_in {
+ 	float: left;   
+}
+
+.im_message_out {
+ 	float: right;   
+}
+
+.im_grouped_short .im_message_body {
+ 	margin-left: 0px;   
+}
+
+.im_grouped_short .im_content_message_wrap {
+   	margin-left: 65px;
+}
+
+.icon-select-tick {
+ 	margin-left: -38px;   
+}
