@@ -10,4 +10,15 @@
 .footer_empty {
  	height: 0;   
 }
-/* end recovering empty space */
+
+
+/* make sidebar more sane with the extra space */
+.tg_head_logo_wrap,
+.im_dialogs_col_wrap {
+	width: 24%;
+}
+.tg_head_main_wrap,
+.im_history_col_wrap {
+ 	width: 76%   
+}
+
