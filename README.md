@@ -10,3 +10,8 @@ Some useful css overrides for telegram web to make it look more like the desktop
 
 * Make installation easier
 * Publish on userstyles.org?
+
+
+## History
+
+I was using this locally and had a bunch of tweaks for the telegram web UI, but foolishly didn't have a backup of all my rules, so I'm publishing the rules here as I recreate my old styles over time.  Eventually I'll post this up on userstyles.org.
