@@ -1,1 +1,13 @@
+/* recover empty space */
+.tg_head_split,
+.im_page_wrap,
+.im_message_wrap,
+.im_send_panel_wrap,
+.im_send_form {
+	max-width: none;   
+}
 
+.footer_empty {
+ 	height: 0;   
+}
+/* end recovering empty space */
