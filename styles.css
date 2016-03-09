@@ -19,7 +19,7 @@
 }
 .tg_head_main_wrap,
 .im_history_col_wrap {
- 	width: 76%;
+ 	width: 76%   
 }
 
 
@@ -50,12 +50,24 @@
  	float: right;   
 }
 
+a.im_message_contact_photo,
+a.im_message_from_photo {
+ 	margin-top: 4px;   
+}
+
+.im_grouped .im_message_body,
 .im_grouped_short .im_message_body {
  	margin-left: 0px;   
 }
 
+.im_grouped .im_message_body_media .im_message_photo_thumb {
+	margin-top: 0;
+}
+
+.im_grouped .im_content_message_wrap,
 .im_grouped_short .im_content_message_wrap {
-   	margin-left: 65px;
+   	margin-left: 63px;
+   	padding-left: 10px;
 }
 
 .icon-select-tick {
