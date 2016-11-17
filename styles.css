@@ -3,7 +3,8 @@
 .im_page_wrap,
 .im_message_wrap,
 .im_send_panel_wrap,
-.im_send_form {
+.im_send_form,
+.im_history_typing {
 	max-width: none;   
 }
 
@@ -15,11 +16,11 @@
 /* make sidebar more sane with the extra space */
 .tg_head_logo_wrap,
 .im_dialogs_col_wrap {
-	width: 24%;
+	width: 20%;
 }
 .tg_head_main_wrap,
 .im_history_col_wrap {
- 	width: 76%   
+ 	width: 80%;
 }
 
 
@@ -28,6 +29,44 @@
 	background-color: #A1B5C4;   
 }
 
+/* Make the emoji and sticker panel nicer */
+.composer_emoji_tooltip {
+    width: 420px;
+    margin-left: -320px;
+    margin-top: -455px
+
+}
+
+.composer_emoji_tooltip_tabs_wrap {
+    width: 420px;
+    height: 400px;
+}
+
+.composer_emoji_tooltip_tabs_contents {
+    width: 840px;
+}
+
+.composer_emoji_tooltip_tab_emoji_content,
+.composer_emoji_tooltip_tab_stickers_content {
+    width: 420px;
+    height: 400px;
+}
+
+.composer_emoji_tooltip .scroller_scrollable_container {
+    height: 355px;
+}
+
+.non_msie .composer_emoji_tooltip_tabs_stickers_active .composer_emoji_tooltip_tabs_contents {
+    -webkit-transform: translate3d(-420px,0,0);
+    -moz-transform: translate3d(-420px,0,0);
+    -o-transform: translate3d(-420px,0,0);
+    -ms-transform: translate3d(-420px,0,0);
+    transform: translate3d(-420px,0,0);
+}
+
+.composer_emoji_tooltip_tail {
+    left: 79%;
+}
 
 /* Make messages nice rouded boxes */
 .im_message_wrap {
@@ -39,7 +78,7 @@
     border-radius: 5px;
     margin: 4px 5px 4px 8px;
     padding: 8px;
-    max-width: 65%;
+    max-width: 75%;
 }
 
 .im_message_in {
@@ -52,7 +91,7 @@
 
 a.im_message_contact_photo,
 a.im_message_from_photo {
- 	margin-top: 4px;   
+ 	margin-top: 0px;   
 }
 
 .im_grouped .im_message_body,
@@ -67,9 +106,15 @@ a.im_message_from_photo {
 .im_grouped .im_content_message_wrap,
 .im_grouped_short .im_content_message_wrap {
    	margin-left: 63px;
-   	padding-left: 10px;
+    padding-left: 10px;
 }
 
-.icon-select-tick {
+.im_message_selected .icon-select-tick,
+.im_history_selectable .im_message_outer_wrap:hover .icon-select-tick  {
  	margin-left: -38px;   
+}
+
+.im_history_typing,
+.im_history_typing a.im_history_typing_author {
+ 	color: #fdfdfd;   
 }
